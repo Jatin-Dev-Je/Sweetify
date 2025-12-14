@@ -1,0 +1,12 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sweetify icon">
+  <defs>
+    <linearGradient id="swirl" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffb347" />
+      <stop offset="50%" stop-color="#ff5f6d" />
+      <stop offset="100%" stop-color="#845ef7" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#0d0b1d" />
+  <path d="M14 34c8-14 16-18 24-10s6 22-6 24S16 44 14 34Z" fill="url(#swirl)" />
+  <circle cx="24" cy="24" r="6" fill="#fff3" />
+</svg>
