@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: sweetify-backend
+    runtime: node
+    region: oregon
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    rootDir: backend
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: BCRYPT_SALT_ROUNDS
+        value: 12
+      # Add these in Render dashboard as secrets:
+      # - MONGODB_URI
+      # - JWT_SECRET
+      # - FRONTEND_ORIGIN
+    healthCheckPath: /api/docs
