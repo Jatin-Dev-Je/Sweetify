@@ -2,6 +2,12 @@
 
 A full-stack web application for managing a sweet shop's inventory, orders, and customer authentication. Built with modern technologies and following Test-Driven Development (TDD) principles.
 
+## 🚀 Live Demo
+
+- **Frontend:** [https://sweetify-eight.vercel.app](https://sweetify-eight.vercel.app)
+- **Backend API:** [https://sweetify-12.onrender.com](https://sweetify-12.onrender.com)
+- **API Docs:** [https://sweetify-12.onrender.com/api/docs](https://sweetify-12.onrender.com/api/docs)
+
 ## 📋 Table of Contents
 
 - [Overview](#overview)
